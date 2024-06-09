@@ -59,8 +59,8 @@ function refresh() {
     if (isRefreshing) {
         return
     }
-    window.location.reload()
     isRefreshing = true
+    window.location.reload()
 }
 
 // Build an display a message to announce an updated Service Worker
